@@ -2,7 +2,7 @@
 
 namespace Summa\Bundle\BadgeBundle\Compiler;
 
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\QueryBuilder;
 use Oro\Bundle\ProductBundle\Entity\Product;

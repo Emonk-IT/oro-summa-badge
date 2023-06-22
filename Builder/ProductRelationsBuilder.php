@@ -2,7 +2,7 @@
 
 namespace Summa\Bundle\BadgeBundle\Builder;
 
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Doctrine\DBAL\Types\Types;
 use Monolog\Logger;
 use Summa\Bundle\BadgeBundle\Compiler\DateConditionCompiler;

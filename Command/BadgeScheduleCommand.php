@@ -2,7 +2,7 @@
 
 namespace Summa\Bundle\BadgeBundle\Command;
 
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 use Oro\Component\MessageQueue\Client\MessageProducerInterface;
 use Summa\Bundle\BadgeBundle\Async\Topics;
 use Symfony\Component\Console\Command\Command;
